@@ -1,0 +1,12 @@
+# Using database to pull your applications weight
+[coderhs](https://twitter.com/coderhs)
+
+materialized view
+http://ryudo.tw/blog/2014/06/20/use-materizlied-view-in-pgsql/
+
+```sql
+select row_to_json(users) from users where id = 1
+```
+
+https://github.com/jackc/surus
+> PostgreSQL extensions for ActiveRecord
